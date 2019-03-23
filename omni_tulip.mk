@@ -24,6 +24,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 # Props.
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.treble.enabled=true \
+    ro.hardware.keystore=sdm660 \
     sys.usb.controller=a800000.dwc3 \
     sys.usb.rndis.func.name=rndis_bam \
     sys.usb.rmnet.func.name=rmnet_bam
