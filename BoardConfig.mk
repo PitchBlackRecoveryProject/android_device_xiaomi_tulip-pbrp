@@ -66,6 +66,11 @@ TARGET_PREBUILT_KERNEL := device/xiaomi/tulip/prebuilt/Image.gz-dtb
 TARGET_BOARD_PLATFORM := sdm660
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno509
 
+#Init
+TARGET_INIT_VENDOR_LIB := libinit_tulip
+TARGET_RECOVERY_DEVICE_MODULES := libinit_tulip
+TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144
 
