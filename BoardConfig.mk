@@ -94,7 +94,7 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # TWRP specific build flags
-TARGET_OTA_ASSERT_DEVICE := tulip
+TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
