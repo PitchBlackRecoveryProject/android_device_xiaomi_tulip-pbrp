@@ -6,7 +6,7 @@ jobs:
     environment:
       MANIFEST_BRANCH: 'android-9.0'
       # PBRP_BRANCH: 'android-9.0'
-      VERSION: '2.9.1'
+      VERSION: '3.0.0'
       VENDOR: 'xiaomi'
       CODENAME: 'tulip'
       BUILD_LUNCH: 'omni_tulip-eng'
@@ -14,6 +14,14 @@ jobs:
       # PB_OFFICIAL: 'true'
       TEST_BUILD: 'true'
       # EXTRA_CMD: ''
+      CHANGELOG: |
+        - Bringup 3.0 
+        - Source side changes 
+        - Fully Redesigned UI 
+        - New Android like Power Menu (Activated via power key hold) 
+        - Flashlight toggled by Vol up(+) on hold 
+        - Flashlight toggle on Lockscreen 
+        - Etc.
     working_directory: /home/builder/pitchblack
     steps:
       - run:
