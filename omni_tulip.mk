@@ -26,7 +26,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 PRODUCT_DEVICE := tulip
 PRODUCT_NAME := omni_tulip
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Redmi Note 6 Pro
+PRODUCT_MODEL := Redmi Note 6 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 # enable stock zip packages flash
