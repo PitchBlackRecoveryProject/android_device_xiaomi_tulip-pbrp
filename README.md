@@ -1,9 +1,9 @@
 # Device Tree for Xiaomi Redmi Note 6 Pro (codename "tulip")
-For building SHRP for Xiaomi Redmi Note 6 Pro ONLY
+For building PBRP for Xiaomi Redmi Note 6 Pro ONLY
 
 To compile:
 
-export ALLOW_MISSING_DEPENDENCIES=true; source build/envsetup.sh; lunch omni_tulip-eng; mka recoveryimage
+. build/envsetup.sh; lunch omni_tulip-eng; mka recoveryimage
 
 The Xiaomi Redmi Note 6 Pro (codenamed _"tulip"_) is a mid-range smartphone from Xiaomi announced in September 2018.
 
