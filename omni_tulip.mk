@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-# Inherit some Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
