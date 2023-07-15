@@ -4,7 +4,7 @@
 /dev/block/bootdevice/by-name/vendor     /vendor                ext4   ro,barrier=1                                     wait,formattable
 
 # UserData
-/dev/block/bootdevice/by-name/userdata   /data                  ext4   nosuid,nodev,barrier=1,noauto_da_alloc,discard,noatime,lazytime   wait,check,fileencryption=ice,quota,reservedsize=128M
+/dev/block/bootdevice/by-name/userdata                   /data                ext4    nosuid,nodev,barrier=1,noauto_da_alloc,discard,noatime,lazytime,errors=panic                    wait,check,fileencryption=ice,quota
 
 # Misc
 /dev/block/bootdevice/by-name/misc       /misc                  emmc   defaults                                         defaults

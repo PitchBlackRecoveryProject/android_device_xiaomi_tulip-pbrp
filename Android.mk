@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), X00T)
+ifeq ($(TARGET_DEVICE), tulip)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
