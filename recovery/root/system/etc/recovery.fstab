@@ -1,7 +1,10 @@
 #<src>                                   <mnt_point>            <type> <mnt_flags and options>                          <fs_mgr_flags>
 
-/dev/block/bootdevice/by-name/system     /system                ext4   ro,barrier=1                                     wait,formattable
-/dev/block/bootdevice/by-name/vendor     /vendor                ext4   ro,barrier=1                                     wait,formattable
+system                                                   /system              ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
+system_ext                                               /system_ext          ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
+product                                                  /product             ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
+vendor                                                   /vendor              ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
+odm                                                      /odm                 ext4    ro,barrier=1                                                                                    wait,logical,first_stage_mount
 
 # UserData
 /dev/block/bootdevice/by-name/userdata                   /data                ext4    nosuid,nodev,barrier=1,noauto_da_alloc,discard,noatime,lazytime,errors=panic                    wait,check,fileencryption=ice,quota
